@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Demo Project for the trading in mcx and nsefo",
   "main": "server.js",
+  "type": "module",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,9 +20,11 @@
   "homepage": "https://github.com/cipher80/tradecore-api#readme",
   "dependencies": {
     "axios": "^1.12.2",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
-    "express": "^5.1.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
     "node": "^22.21.0",
     "nse-js": "^0.0.9",
     "pg": "^8.16.3",
