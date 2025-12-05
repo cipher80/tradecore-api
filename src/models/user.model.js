@@ -53,16 +53,6 @@ User.init(
       type: DataTypes.DATE,
       allowNull: true,
     },
-
-    disclaimerVersionAccepted: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
-
-    disclaimerAcceptedAt: {
-      type: DataTypes.DATE,
-      allowNull: true,
-    },
   },
   {
     sequelize,
